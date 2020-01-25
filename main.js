@@ -11,7 +11,7 @@ function renderText(response, objectID) {
 		o.innerHTML = 'Покупка ' + obj[i].buy + 'Продажа: ' + obj[i].sale;
 		o.classList.add('obj[i]');
 		document.getElementById(objectID).appendChild(o);
-	}//
+	}
 }
 
 function main(){
